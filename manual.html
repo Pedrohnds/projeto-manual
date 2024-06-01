@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual do Funcionário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <script src="funcionalidades.js"></script>
+</head>
+<body>
+
+    <!--Menu Bar-->
+    <button class="menu-toggle" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</button>
+    <!--Site divido em quatro partes-->
+<div class="menu" id="menu">
+    <a href="#section1">Inicial</a>
+    <a href="#section2">O Que é?</a>
+    <a href="#section3">Gerdau</a>
+    <a href="#section4">Diretrizes</a>
+    </div>
+    <!--Parte 1-->
+    <div class="section" id="section1">
+        <h1 style="color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;"></h1>
+        
+    </div>
+    <!--Parte 2-->
+    <div class="section" id="section2">
+            <h2>Manual do Funcionário</h2>
+            <p>O manual do funcionário é um documento essencial que contém informações importantes sobre as políticas, procedimentos e cultura da empresa. Ele é projetado para ajudar os funcionários a entenderem melhor suas responsabilidades, os benefícios oferecidos e as expectativas da empresa.
+            Além disso, o manual serve como um guia para os funcionários novos e antigos, fornecendo respostas para perguntas frequentes e esclarecendo dúvidas sobre o funcionamento interno da organização.
+            Ter um manual do funcionário bem elaborado é fundamental para garantir uma comunicação clara e eficiente dentro da empresa. Ele também ajuda a alinhar os objetivos dos funcionários com os objetivos da empresa, promovendo um ambiente de trabalho mais harmonioso e produtivo.</p>
+        </div>
+
+    <!--Parte 3-->
+        <div class="section" id="section3">
+            <h2>Baseado na empresa Gerdau :</h2>
+            <div class="container">
+                <div class="circle-container">
+                    <div class="circle">VISÃO</div>
+                    <div class="circle">MISSÃO</div>
+                    <div class="circle">VALORES</div>
+                </div>
+                <div class="rectangle-container">
+                    <div class="rectangle">
+                        <ul>
+                            <li>Segurança</li>
+                            <li>Sustentabilidade</li>
+                            <li>Excelência</li>
+                            <li>Foco no Cliente</li>
+                            <li>Pessoas</li>
+                            <li>Transparência Ética</li>
+                        </ul>
+                    </div>
+                    <div class="rectangle">Ser a líder em aciaria sustentável, atendendo com excelência às necessidades dos nossos clientes e criando valor para todos os nossos públicos de interesse</div>
+                    <div class="rectangle">Desenvolver soluções de aço que contribuem para a construção de um futuro mais sustentável, inovador e próspero, promovendo o crescimento das pessoas e das comunidades onde atuamos</div>
+                </div>
+            </div>
+            </div>   
+
+            <!--Parte 4-->
+            <div class="section" id="section4">  
+                <h2>Manual do Funcionário: Diretrizes e Políticas</h2>
+            
+                <!-- Topicos e Subtopicos -->
+                <button onclick="toggleContent('ods')">ODS</button>
+                <div id="ods" class="content" style="display: none;">
+                    <button onclick="toggleSubtopic('ods5')">ODS 5: Igualdade de Gênero</button>
+                    <div id="ods5" class="subtopic" style="display: none;">
+                        <img src="imagens/5.png" alt="ODS 5">
+                        <p>Este objetivo visa abordar as desigualdades de gênero em todas as suas formas.<br>Incluindo aquelas relacionadas ao acesso à educação, saúde, emprego e participação política.</p>
+                    </div>
+            
+                    <button onclick="toggleSubtopic('ods8')">ODS 8: Trabalho Decente e Crescimento Econômico</button>
+                    <div id="ods8" class="subtopic" style="display: none;">
+                        <img src="imagens/8.png" alt="ODS 8">
+                        <p>Promove o crescimento econômico sustentado<br>inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todos.</p>
+                    </div>
+            
+                    <button onclick="toggleSubtopic('ods9')">ODS 9: Indústria, Inovação e Infraestrutura</button>
+                    <div id="ods9" class="subtopic" style="display: none;">
+                        <img src="imagens/9.png" alt="ODS 9">
+                        <p>Foca na construção de infraestruturas resilientes, <br>na promoção da industrialização inclusiva e sustentável e no fomento à inovação.</p>
+                    </div>
+            
+                    <button onclick="toggleSubtopic('ods10')">ODS 10: Redução das Desigualdades</button>
+                    <div id="ods10" class="subtopic" style="display: none;">
+                        <img src="imagens/10.png" alt="ODS 10">
+                        <p>Visa reduzir as desigualdades dentro dos países<br>entre eles, promovendo a inclusão social, econômica e política de todos.</p>
+                    </div>
+            
+                    <button onclick="toggleSubtopic('ods12')">ODS 12: Consumo e Produção Responsáveis</button>
+                    <div id="ods12" class="subtopic" style="display: none;">
+                        <img src="imagens/12.png" alt="ODS 12">
+                        <p>Promove padrões de consumo e produção sustentáveis.<br>Visando reduzir pela metade o desperdício de alimentos per capita globalmente e reduzir a geração de resíduos.</p>
+                    </div>
+            
+                    <button onclick="toggleSubtopic('ods13')">ODS 13: Ação Contra a Mudança Global do Clima</button>
+                    <div id="ods13" class="subtopic" style="display: none;">
+                        <img src="imagens/13.png" alt="ODS 13">
+                        <p>Visa tomar medidas urgentes para combater a mudança climática e seus impactos.<br>Integrando medidas nas políticas, estratégias e planejamentos nacionais.</p>
+                    </div>
+            
+                    <button onclick="toggleSubtopic('ods16')">ODS 16: Paz, Justiça e Instituições Eficazes</button>
+                    <div id="ods16" class="subtopic" style="display: none;">
+                        <img src="imagens/16.png" alt="ODS 16">
+                        <p>Promove sociedades pacíficas e inclusivas, proporcionando<br>o acesso à justiça para todos construindo instituições eficazes, responsáveis e inclusivas em todos os níveis.</p>
+                    </div>
+            
+                    <button onclick="toggleSubtopic('ods17')">ODS 17: Parcerias e Meios de Implementação</button>
+                    <div id="ods17" class="subtopic" style="display: none;">
+                        <img src="imagens/17.png" alt="ODS 17">
+                        <p>Visa fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável.<br>As metas incluem mobilizar recursos financeiros para o desenvolvimento sustentável, facilitar o acesso a tecnologias e inovações.</p>
+                    </div>
+                </div>
+                
+                <!-- ISO Topicos e Subtopicos -->
+                <button onclick="toggleContent('iso')">ISO</button>
+                <div id="iso" class="content" style="display: none;">
+                    <button onclick="toggleSubtopic('iso9001')">ISO 9001: Gestão de Qualidade</button>
+                    <div id="iso9001" class="subtopic" style="display: none;">
+                        <img src="imagens/a-importancia-da-iso-9001-para-sua-empresa2-removebg-preview.png" alt="ISO 9001" style="width: 100px">
+                        <p>Uma norma internacional que estabelece requisitos para um sistema de gestão da qualidade(SGQ) em uma organização.</p>
+                    </div>
+            
+                    <button onclick="toggleSubtopic('iso14001')">ISO 14001: Gestão Ambiental</button>
+                    <div id="iso14001" class="subtopic" style="display: none;">
+                        <img src="imagens/images-removebg-preview (2).png" alt="ISO 14001">
+                        <p>Norma internacional que estabelece requisitos para um sistema de gestão ambiental (SGA) em uma organização.</p>
+                    </div>
+                    
+                    <button onclick="toggleSubtopic('iso45001')">ISO 45001: Segurança e Saúde Ocupacional</button>
+                    <div id="iso45001" class="subtopic" style="display: none;">
+                        <img src="imagens/images-removebg-preview (1).png" alt="ISO 45001">
+                        <p>Uma norma internacional que visa estabelecer requisitos para um sistema de gestão da segurança. Saúde ocupacional (SSO) em uma organização.</p>
+                    </div>
+                    
+                    <button onclick="toggleSubtopic('seloVerde')">Selo Empresa Verde</button>
+                    <div id="seloVerde" class="subtopic" style="display: none;">
+                        <img src="imagens/selo-verde-brasil-1-removebg-preview.png" alt="Selo Empresa Verde">
+                        <p>O selo Empresa Verde identifica organizações que adotam práticas sustentáveis e ambientalmente responsáveis.</p>
+                    </div>
+                </div>
+            
+                <!-- Norma, Botão dela -->
+                <button onclick="toggleContent('nr')">Normas Regulamentadora</button>
+                <div id="nr" class="content" style="display: none;">
+                    <img  style="float: left;
+                    margin-right: 10px;
+                    max-width: 90px;"  src="imagens/R-removebg-preview.png" alt="">
+                    <p>As Normas Regulamentadoras são um conjunto de diretrizes estabelecidas pelo Ministério do Trabalho e
+                        emprego no Brasil.<br>Elas abordam aspectos como segurança do trabalho, medicina ocupacional, ergonomia, proteção contra incêndios.</p>
+                </div>
+            
+                <!-- Código, Botão dela -->
+                <button onclick="toggleContent('codigo')">Código de Conduta</button>
+                <div id="codigo" class="content" style="display: none;">
+                    <img  style="float: left;
+                    margin-right: 10px;
+                    max-width: 90px;"  src="imagens/istockphoto-1277216880-612x612-removebg-preview.png" alt="">
+                    <p>Um Código de Conduta é um conjunto de diretrizes que estabelece as expectativas de comportamento e éticapara.<br>Ele define os padrões de conduta aceitáveis e descreve as responsabilidades e obrigações dos indivíduos dentro dessa estrutura.</p>
+                </div>
+            
+                <!-- ABNT, Botão dela --> 
+                <button onclick="toggleContent('abnt')">ABNT (Associação Brasileira de Normas Técnicas)</button>
+                <div id="abnt" class="content" style="display: none;">
+                    <img style="float: left;
+                    margin-right: 10px;
+                    max-width: 90px;" src="imagens/Normas-ABNT-removebg-preview.png" alt="">
+                    <p>Entidade que cria regras para garantir qualidade, segurança e compatibilidade de produtos e processos em diferentes setores no Brasil.</p>
+                </div>
+               <!--LINKS-->
+    
+        <div class="links">
+            <h2>
+                Para saber mais sobre os assuntos, clique abaixo:
+                </h2>
+              <div class="link-items">
+            <p><a href="https://www.estrategiaods.org.br/conheca-os-ods/" target="_blank">ODS</a></p>
+            <p><a href="https://blogdaqualidade.com.br/o-que-e-iso/" target="_blank">ISO</a></p>
+            <p><a href="https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs" target="_blank">Normas Regulamentadoras</a></p>
+            <p><a href="https://fia.com.br/blog/codigo-de-conduta/#:~:text=siga%20a%20leitura.-,O%20que%20é%20o%20código%20de%20conduta%3F,do%20grupo%20que%20o%20formou." target="_blank">Codigo de Conduta</a></p>
+            <p><a href="https://brasilescola.uol.com.br/redacao/normas-da-abnt.htm" target="_blank">ABNT</a></p>
+        </div>
+        </div>
+            </div>
+
+            
+    </div>
+            <!--Footer-->
+            <div class="footer">
+                <p>&copy; T2ELE 2024</p>
+                <p>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCH-jDrROwxGarYb8R2Ek4sxnIIzPxAzXYX8p21LSKfW8rAg/viewform" target="_blank">Forms</a> | 
+                  <a href="https://kahoot.com" target="_blank">Kahoot</a>
+                </p>
+            </div>            
+        
+            <button id="topButton" onclick="scrollToTop()">↑</button>
+
+
+</body>
+</html>
